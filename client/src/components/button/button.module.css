@@ -1,0 +1,8 @@
+.btn {
+  border: 0;
+  outline: none;
+  font-size: inherit;
+  font-weight: 600;
+  border-radius:5px;
+  cursor: pointer;
+}

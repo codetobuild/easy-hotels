@@ -1,0 +1,120 @@
+.rModalWrapper {
+  width: 100%;
+  height: 100%;
+  background: red;
+  /* position: absolute; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.3);
+}
+.rModalContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+  background: white;
+  max-width: 600px;
+  height: 600px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  overflow-x: auto;
+}
+
+.rModalTitle {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.rModalCloseBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.rModalCloseBtn:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.rModalMain {
+  color: black;
+  height: auto;
+}
+
+.rModalItem {
+  display: flex;
+  flex-direction: row;
+  boder: 3px solid green;
+  margin-bottom: 12px;
+  /* background: lightgray; */
+  box-shadow: 2px 10px 15px -9px rgba(0, 0, 0, 0.1);
+}
+.rModalItemDesc {
+  width: 150px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.rModalItemRoom {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 25px;
+}
+.rModalRoomNumber {
+  background-color: red;
+}
+.rModalLabel {
+  font-size: 20px;
+  padding-right: 5px;
+}
+.rModalCheckbox {
+  width: 50px;
+  height: 50px;
+}
+
+.roomSubmitBtnWrapper {
+}
+.roomSubmitBtn {
+  width: 90%;
+  padding: 20px;
+  background: blue;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  cursor: pointer;
+  transform: translate(-50%);
+  transition: all 0.4s ease;
+}
+.roomSubmitBtn:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+.roomSubmitSuccess {
+  font-size: 18px;
+  color: green;
+  text-shadow: 0 !important;
+}
+.roomSubmitFailure {
+  font-size: 18px;
+  color: red;
+  text-shadow: 0 !important;
+}

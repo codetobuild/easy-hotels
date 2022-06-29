@@ -1,0 +1,71 @@
+.navbar {
+  height: 60px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  text-decoration: none;
+}
+.logoText {
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.profileWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.profileContainer {
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  border: 4px solid blue;
+  border-radius: 9999px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+.usernameText {
+  font-size: 20px;
+}
+.navButton {
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}
+
+.navItems > * {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.logoutBtn {
+  outline: none;
+  border: none;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
